@@ -1,0 +1,6 @@
+# Lambda Function Requirements
+# Note: pyodbc and boto3 are provided by Lambda layers and runtime
+# This file is for reference and local testing
+
+boto3>=1.34.0
+botocore>=1.34.0

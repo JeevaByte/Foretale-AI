@@ -1,0 +1,14 @@
+{
+  "resourceName": "foretaleresources",
+  "policyUUID": "60d234c7",
+  "bucketName": "foretale-s3-bucket",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

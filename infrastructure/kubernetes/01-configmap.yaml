@@ -1,0 +1,40 @@
+################################################################################
+# Kubernetes ConfigMap for Application Configuration
+# Contains RDS connection settings and application environment variables
+################################################################################
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: foretale-app-config
+  namespace: default
+  labels:
+    app: foretale
+    environment: dev
+data:
+  # RDS Configuration - Update with actual values from terraform outputs
+  RDS_ENDPOINT: "foretale-dev-postgres.cny6oww6atkz.us-east-2.rds.amazonaws.com"
+  RDS_PORT: "5432"
+  RDS_DATABASE: "foretaledb"
+  RDS_USER: "foretaleadmin"
+  
+  # Application Configuration
+  ENVIRONMENT: "dev"
+  LOG_LEVEL: "INFO"
+  MAX_POOL_SIZE: "20"
+  MIN_POOL_SIZE: "5"
+  CONNECTION_TIMEOUT: "30"
+  
+  # S3 Configuration
+  S3_BUCKET_BACKUPS: "foretale-dev-backups"
+  S3_BUCKET_APP_STORAGE: "foretale-dev-app-storage"
+  S3_BUCKET_USER_UPLOADS: "foretale-dev-user-uploads"
+  S3_BUCKET_ANALYTICS: "foretale-dev-analytics"
+  AWS_REGION: "us-east-2"
+  
+  # DynamoDB Configuration
+  DYNAMODB_SESSIONS_TABLE: "foretale-dev-sessions"
+  DYNAMODB_CACHE_TABLE: "foretale-dev-cache"
+  DYNAMODB_AI_STATE_TABLE: "foretale-dev-ai-state"
+  DYNAMODB_AUDIT_LOGS_TABLE: "foretale-dev-audit-logs"
+  DYNAMODB_WEBSOCKET_TABLE: "foretale-dev-websocket-connections"

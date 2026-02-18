@@ -1,0 +1,9 @@
+# GitHub Personal Access Token for Amplify
+# Required scopes: repo (full control of private repositories)
+# Create at: https://github.com/settings/tokens
+#
+# Usage: terraform apply -var-file="amplify.tfvars"
+#
+# DO NOT commit this file to Git - add to .gitignore
+
+github_token = "ghp_your_token_here"

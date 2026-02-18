@@ -1,0 +1,2511 @@
+﻿{
+    "Resources": [
+        {
+            "Arn": "arn:aws:cloudwatch:us-east-2:442426872653:alarm:foretale-dev-alb-unhealthy-hosts",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudwatch:alarm",
+            "Service": "cloudwatch",
+            "LastReportedAt": "2026-02-05T14:28:32+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-0290bf05318bfae4f",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/c52bhyyc4c",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-08T08:10:12+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/apis/ux2kvdl1q8/stages/dev",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:apis/stages",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-05T14:34:47+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:network-acl/acl-0cc5fb0a89d455520",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:network-acl",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-07T11:17:08+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudformation:us-east-2:442426872653:stack/amplify-foretaleapplication-dev-fe78a/8774da30-01fa-11f1-950f-0a2b9885c0a9",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudformation:stack",
+            "Service": "cloudformation",
+            "LastReportedAt": "2026-02-10T01:43:35+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-042fa6d8da5c057b1",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:network-acl/acl-032eb33bb54b98d47",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:network-acl",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-07T11:17:08+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-01e220ae648b6ba34",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:secretsmanager:us-east-2:442426872653:secret:foretale-app-rds-credentials-hD8gGd",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "secretsmanager:secret",
+            "Service": "secretsmanager",
+            "LastReportedAt": "2026-02-04T17:07:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:network-interface/eni-078ba9a379d5950d6",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:network-interface",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T23:05:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudwatch:us-east-2:442426872653:alarm:foretale-dev-rds-cpu-high",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudwatch:alarm",
+            "Service": "cloudwatch",
+            "LastReportedAt": "2026-01-27T17:58:22+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecs:us-east-2:442426872653:cluster/cluster-uploads",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ecs:cluster",
+            "Service": "ecs",
+            "LastReportedAt": "2026-02-04T05:44:44+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:subnet/subnet-00ab6ebd3305afd8a",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T06:08:17+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-0244ea383338ed93c",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T08:29:11+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:launch-template/lt-0eedd4277479940f2",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:launch-template",
+            "Service": "ec2",
+            "LastReportedAt": "2026-01-27T17:58:22+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:us-east-2:442426872653:log-group:API-Gateway-Execution-Logs_ux2kvdl1q8/dev",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-02-06T08:45:42+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:memorydb:us-east-2:442426872653:parametergroup/default.memorydb-valkey7",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "memorydb:parametergroup",
+            "Service": "memorydb",
+            "LastReportedAt": "2026-02-05T19:12:34+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:elasticloadbalancing:us-east-2:442426872653:targetgroup/foretale-app-tg/3f67239ae28656f6",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "elasticloadbalancing:targetgroup",
+            "Service": "elasticloadbalancing",
+            "LastReportedAt": "2026-01-29T10:43:33+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecs:us-east-2:442426872653:task-definition/td-db-process:2",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ecs:task-definition",
+            "Service": "ecs",
+            "LastReportedAt": "2026-02-07T14:45:03+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-0a58b20d3f76d9664",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:network-acl/acl-0075778ee9e1ba9c0",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:network-acl",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-07T11:17:08+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:network-interface/eni-0b7a55d8a9bd2b477",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:network-interface",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T23:05:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-006396e7a21fec003",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-06bac6722ac39318d",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T08:29:11+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-00fcc36c1351f3bd3",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:snapshot:rds:terraform-20260129145821368500000001-2026-01-31-03-04",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:snapshot",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-04T23:24:33+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:route-table/rtb-02075b5df500a6100",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:route-table",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-04T17:02:08+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:snapshot:foretale-dev-postgres-final-snapshot-20260129",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:snapshot",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-04T23:24:33+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:us-east-2:442426872653:log-group:/aws/apigateway/foretale-dev-api",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-02-06T08:45:41+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:vpc/vpc-0aef39d92ca9cb3f9",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:vpc",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-03T17:58:22+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:vpc-endpoint/vpce-0181499bc4e02a982",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:vpc-endpoint",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-03T17:58:21+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecs:us-east-2:442426872653:task-definition/td-bg-jobs:2",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ecs:task-definition",
+            "Service": "ecs",
+            "LastReportedAt": "2026-02-05T00:16:39+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:secretsmanager:us-east-2:442426872653:secret:foretale-dev-sqlserver-credentials-ghFUYy",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "secretsmanager:secret",
+            "Service": "secretsmanager",
+            "LastReportedAt": "2026-02-02T22:33:50+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:us-east-2:442426872653:log-group:/aws/rds/instance/foretale-app-rds-main/postgresql",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-02-06T08:45:42+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:subgrp:foretale-dev-db-subnet-group",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:subgrp",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-05T00:20:04+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudwatch:us-east-2:442426872653:alarm:foretale-app-rds-rds-cpu-high",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudwatch:alarm",
+            "Service": "cloudwatch",
+            "LastReportedAt": "2026-02-04T17:26:07+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecr:us-east-2:442426872653:repository/uploads/ecr-csv-upload",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ecr:repository",
+            "Service": "ecr",
+            "LastReportedAt": "2026-02-03T17:58:21+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/c52bhyyc4c/resources/7kdirjh03k/methods/POST",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/resources/methods",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-09T13:44:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:memorydb:us-east-2:442426872653:parametergroup/default.memorydb-redis7",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "memorydb:parametergroup",
+            "Service": "memorydb",
+            "LastReportedAt": "2026-02-05T19:12:34+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:elasticloadbalancing:us-east-2:442426872653:targetgroup/foretale-dev-eks-tg/1fdda9398515e3ef",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "elasticloadbalancing:targetgroup",
+            "Service": "elasticloadbalancing",
+            "LastReportedAt": "2026-02-05T14:29:09+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:network-interface/eni-0d8be78c4cc370bb6",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:network-interface",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T23:05:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/ux2kvdl1q8/resources/yta1g9/methods/PUT",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/resources/methods",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-09T13:44:50+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudwatch:us-east-2:442426872653:alarm:foretale-dev-api-5xx-errors",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudwatch:alarm",
+            "Service": "cloudwatch",
+            "LastReportedAt": "2026-01-27T17:58:22+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:secretsmanager:us-east-2:442426872653:secret:dev-redis-he9XhM",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "secretsmanager:secret",
+            "Service": "secretsmanager",
+            "LastReportedAt": "2026-02-02T22:33:42+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:elastic-ip/eipalloc-0fe9a72f99cb0c313",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:elastic-ip",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T16:22:29+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:athena:us-east-2:442426872653:datacatalog/AwsDataCatalog",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "athena:datacatalog",
+            "Service": "athena",
+            "LastReportedAt": "2026-02-07T04:06:35+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:memorydb:us-east-2:442426872653:acl/open-access",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "memorydb:acl",
+            "Service": "memorydb",
+            "LastReportedAt": "2026-02-07T15:20:24+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:network-interface/eni-08cb7652b82476658",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:network-interface",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T23:05:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-0c9abd9c3f26b7328",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:elasticloadbalancing:us-east-2:442426872653:loadbalancer/app/foretale-app-alb-main/9d7fc2d2467d43e6",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "elasticloadbalancing:loadbalancer/app",
+            "Service": "elasticloadbalancing",
+            "LastReportedAt": "2026-02-05T14:31:13+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecr:us-east-2:442426872653:repository/servers/embedding",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ecr:repository",
+            "Service": "ecr",
+            "LastReportedAt": "2026-02-03T17:58:21+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:subgrp:default",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:subgrp",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-05T00:20:04+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:db:langgraph",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:db",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-04T02:13:00+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:secretsmanager:us-east-2:442426872653:secret:dev-pinecone-api-C2eZiF",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "secretsmanager:secret",
+            "Service": "secretsmanager",
+            "LastReportedAt": "2026-02-02T22:33:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:elasticloadbalancing:us-east-2:442426872653:targetgroup/foretale-dev-lambda-tg/66966418e0f36a50",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "elasticloadbalancing:targetgroup",
+            "Service": "elasticloadbalancing",
+            "LastReportedAt": "2026-02-05T14:29:08+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:network-interface/eni-0750dd0a20ff1e87b",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:network-interface",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T23:05:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:autoscaling:us-east-2:442426872653:autoScalingGroup:9ed33d87-7eb8-453d-8ceb-5f8f788c4be2:autoScalingGroupName/foretale-dev-ai-servers-asg",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "autoscaling:autoScalingGroup",
+            "Service": "autoscaling",
+            "LastReportedAt": "2026-02-09T12:54:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:dynamodb:us-east-2:442426872653:table/foretale-app-dynamodb-cache",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "dynamodb:table",
+            "Service": "dynamodb",
+            "LastReportedAt": "2026-02-08T22:33:23+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group/sg-04de4fb1b8c722ef6",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-07T02:54:12+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:vpc-endpoint/vpce-0dd10c2c36cdaea13",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:vpc-endpoint",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-04T17:02:12+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:vpc-endpoint/vpce-04bf4ba07330c8a7e",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:vpc-endpoint",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-04T17:02:12+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/6pz582qld4/resources/e531i3y3ej",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/resources",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-09T01:15:23+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/ux2kvdl1q8/resources/qvus9q",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/resources",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-09T01:15:25+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:subnet/subnet-0f546c8342e908ba4",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T06:08:17+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:network-interface/eni-01ca674c0e0adb978",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:network-interface",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T23:05:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:lambda:us-east-2:442426872653:function:foretale-app-lambda-ecs-invoker",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "lambda:function",
+            "Service": "lambda",
+            "LastReportedAt": "2026-02-07T14:44:57+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:network-interface/eni-0cb72828cd2cbacac",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:network-interface",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T23:05:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:lambda:us-east-2:442426872653:function:foretale-app-lambda-update-record",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "lambda:function",
+            "Service": "lambda",
+            "LastReportedAt": "2026-02-06T11:40:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/ux2kvdl1q8",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-08T08:10:13+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:elasticloadbalancing:us-east-2:442426872653:listener-rule/app/foretale-app-alb-main/9d7fc2d2467d43e6/44d418b6f04f02f3/a9f41337340d7a6f",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "elasticloadbalancing:listener-rule/app",
+            "Service": "elasticloadbalancing",
+            "LastReportedAt": "2026-02-05T14:31:18+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group/sg-0752b506987d0f4bd",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-07T02:54:12+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cognito-idp:us-east-2:442426872653:userpool/us-east-2_U1ygvI4IB",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cognito-idp:userpool",
+            "Service": "cognito-idp",
+            "LastReportedAt": "2026-02-05T05:04:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-08c94cbf90e1b7809",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:resource-explorer-2:us-east-2:442426872653:index/007e847e-c690-4256-a158-5d891b6d92ea",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "resource-explorer-2:index",
+            "Service": "resource-explorer-2",
+            "LastReportedAt": "2026-01-16T21:50:13+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:volume/vol-02c89dfdab39f22be",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:volume",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-04T16:31:41+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:volume/vol-0289d21fc5704098b",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:volume",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-04T16:31:41+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:internet-gateway/igw-0c75c5a6c54c48ff1",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:internet-gateway",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T15:16:01+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudwatch:us-east-2:442426872653:alarm:foretale-dev-lambda-errors",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudwatch:alarm",
+            "Service": "cloudwatch",
+            "LastReportedAt": "2026-01-27T17:58:22+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/ux2kvdl1q8/resources/yta1g9",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/resources",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-09T01:15:25+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:us-east-2:442426872653:log-group:/aws/lambda/amplify-foretaleapplicati-UpdateRolesWithIDPFuncti-kAwDMttSovfR",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-02-06T08:45:42+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:instance/i-01d10023ca03096ba",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:instance",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-03T16:23:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:elastic-ip/eipalloc-09fe95849b6895ad9",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:elastic-ip",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T16:22:29+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:events:us-east-2:442426872653:rule/AutoScalingManagedRule",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "events:rule",
+            "Service": "events",
+            "LastReportedAt": "2026-01-27T17:59:23+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecr:us-east-2:442426872653:repository/servers/redis/sync",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ecr:repository",
+            "Service": "ecr",
+            "LastReportedAt": "2026-02-03T17:58:21+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudwatch:us-east-2:442426872653:alarm:foretale-dev-rds-storage-low",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudwatch:alarm",
+            "Service": "cloudwatch",
+            "LastReportedAt": "2026-01-27T17:58:22+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecr:us-east-2:442426872653:repository/invoke/db/process",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ecr:repository",
+            "Service": "ecr",
+            "LastReportedAt": "2026-02-03T17:58:21+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group/sg-0063315a3ab679758",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-07T02:54:12+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:network-interface/eni-08fe085cc09a07a72",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:network-interface",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T23:05:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:lambda:us-east-2:442426872653:function:foretale-app-lambda-delete-record",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "lambda:function",
+            "Service": "lambda",
+            "LastReportedAt": "2026-02-06T11:40:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:events:us-east-2:442426872653:event-bus/default",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "events:event-bus",
+            "Service": "events",
+            "LastReportedAt": "2026-02-03T16:23:44+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecs:us-east-2:442426872653:task-definition/td-csv-upload:1",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ecs:task-definition",
+            "Service": "ecs",
+            "LastReportedAt": "2026-02-05T00:16:39+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-04795bd7b46685aa9",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/6pz582qld4",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-08T08:10:12+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:snapshot:hexango-express-final-20260202",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:snapshot",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-04T23:24:33+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:pg:default.sqlserver-ex-16.0",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:pg",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-08T12:42:06+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/ux2kvdl1q8/resources/wa6l81",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/resources",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-09T01:15:25+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:subgrp:foretale-rds-subnet-group",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:subgrp",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-05T00:20:04+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group/sg-098c140212053013a",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-07T02:54:12+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudwatch:us-east-2:442426872653:alarm:foretale-dev-rds-connections-high",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudwatch:alarm",
+            "Service": "cloudwatch",
+            "LastReportedAt": "2026-01-27T17:58:22+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecs:us-east-2:442426872653:task-definition/td-csv-upload:2",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ecs:task-definition",
+            "Service": "ecs",
+            "LastReportedAt": "2026-02-07T14:45:03+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:memorydb:us-east-2:442426872653:parametergroup/default.memorydb-redis6",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "memorydb:parametergroup",
+            "Service": "memorydb",
+            "LastReportedAt": "2026-02-05T19:12:34+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:dynamodb:us-east-2:442426872653:table/params",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "dynamodb:table",
+            "Service": "dynamodb",
+            "LastReportedAt": "2026-02-08T22:33:26+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudwatch:us-east-2:442426872653:alarm:foretale-app-rds-rds-connections-high",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudwatch:alarm",
+            "Service": "cloudwatch",
+            "LastReportedAt": "2026-02-04T17:26:07+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:amplify:us-east-2:442426872653:apps/d238q3kl38fu0z/branches/main",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "amplify:apps/branches",
+            "Service": "amplify",
+            "LastReportedAt": "2026-02-05T03:55:07+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudwatch:us-east-2:442426872653:alarm:foretale-dev-lambda-high-duration",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudwatch:alarm",
+            "Service": "cloudwatch",
+            "LastReportedAt": "2026-01-27T17:58:22+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:network-interface/eni-0dce1582505b67de0",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:network-interface",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T23:05:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:subnet/subnet-0eb005ebf922d4da1",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T06:08:17+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:network-interface/eni-0f47df6894f6012ba",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:network-interface",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T23:05:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:route-table/rtb-0532dfd78d2deabe1",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:route-table",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-04T17:02:07+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:lambda:us-east-2:442426872653:function:foretale-app-lambda-insert-record",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "lambda:function",
+            "Service": "lambda",
+            "LastReportedAt": "2026-02-06T11:40:12+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:db:foretale-app-rds-main",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:db",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-05T14:26:03+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:route-table/rtb-09c400d3f13270378",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:route-table",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-03T21:32:06+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:snapshot:rds:terraform-20260129145821368500000001-2026-01-29-15-03",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:snapshot",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-04T23:24:33+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-0a694364c71eda9dd",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T08:29:11+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/ux2kvdl1q8/resources/2js1ifli62",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/resources",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-09T01:15:24+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudformation:us-east-2:442426872653:stack/amplify-foretaleapplication-dev-fe78a-storageforetalestorage-LPANVBHEIQLJ/a55c0ce0-02b7-11f1-86cf-02b144d0ca75",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudformation:stack",
+            "Service": "cloudformation",
+            "LastReportedAt": "2026-02-05T17:25:21+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:lambda:us-east-2:442426872653:function:ecs-task-invoker",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "lambda:function",
+            "Service": "lambda",
+            "LastReportedAt": "2026-02-07T14:44:56+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/c52bhyyc4c/resources/7kdirjh03k",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/resources",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-09T01:15:24+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-03fe0daba785e4db6",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T08:29:11+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:subnet/subnet-0bede8b3d10d98d84",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T06:08:17+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudwatch:us-east-2:442426872653:alarm:foretale-dev-api-high-latency",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudwatch:alarm",
+            "Service": "cloudwatch",
+            "LastReportedAt": "2026-01-27T17:58:22+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/ux2kvdl1q8/resources/6c62i9/methods/GET",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/resources/methods",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-09T13:44:48+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:pg:default.postgres15",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:pg",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-08T12:42:06+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecs:us-east-2:442426872653:task-definition/td-db-process:1",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ecs:task-definition",
+            "Service": "ecs",
+            "LastReportedAt": "2026-02-05T00:16:39+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/ux2kvdl1q8/resources/wa6l81/methods/GET",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/resources/methods",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-09T13:44:49+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-016778e55ac80d901",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-0130d86d380d3de11",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:elasticloadbalancing:us-east-2:442426872653:listener-rule/app/foretale-app-alb-main/9d7fc2d2467d43e6/44d418b6f04f02f3/e773a208f5982318",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "elasticloadbalancing:listener-rule/app",
+            "Service": "elasticloadbalancing",
+            "LastReportedAt": "2026-02-05T14:31:18+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-09b9e0f9610a2e7f9",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/ux2kvdl1q8/resources/3yoqye",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/resources",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-09T01:15:24+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-026df5534e68d6ac8",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-0c0d7213f8a1850b3",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T08:29:11+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudwatch:us-east-2:442426872653:alarm:foretale-dev-low-cpu",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudwatch:alarm",
+            "Service": "cloudwatch",
+            "LastReportedAt": "2026-02-05T14:32:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:internet-gateway/igw-0939b3576544383df",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:internet-gateway",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T15:16:01+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group/sg-0a674638dfa739028",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-07T02:54:12+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:subnet/subnet-04cf0df17389e8633",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T06:08:17+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecs:us-east-2:442426872653:cluster/cluster-execute",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ecs:cluster",
+            "Service": "ecs",
+            "LastReportedAt": "2026-02-04T05:44:44+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudwatch:us-east-2:442426872653:alarm:foretale-dev-alb-response-time",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudwatch:alarm",
+            "Service": "cloudwatch",
+            "LastReportedAt": "2026-02-05T14:28:32+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/ux2kvdl1q8/resources/k9j5o6",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/resources",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-09T01:15:24+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group/sg-0e96af64d75de7a0b",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-07T02:54:12+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudwatch:us-east-2:442426872653:alarm:foretale-app-rds-rds-storage-low",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudwatch:alarm",
+            "Service": "cloudwatch",
+            "LastReportedAt": "2026-02-04T17:26:07+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/ux2kvdl1q8/resources/6c62i9",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/resources",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-09T01:15:24+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:us-east-2:442426872653:log-group:/aws/foretale-app/lambda/main",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-02-06T08:45:41+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecs:us-east-2:442426872653:cluster/cluster-jobs",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ecs:cluster",
+            "Service": "ecs",
+            "LastReportedAt": "2026-02-04T05:44:45+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:subnet/subnet-0c76e28ef555b9159",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T06:08:17+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-0197342a832061535",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T08:29:11+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:secretsmanager:us-east-2:442426872653:secret:dev-langsmith-api-E3REzx",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "secretsmanager:secret",
+            "Service": "secretsmanager",
+            "LastReportedAt": "2026-02-02T22:33:44+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:pg:foretale-app-rds-params-pg",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:pg",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-08T12:42:06+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:lambda:us-east-2:442426872653:function:amplify-login-verify-auth-challenge-04d18522",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "lambda:function",
+            "Service": "lambda",
+            "LastReportedAt": "2026-02-04T19:09:44+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:snapshot:rds:hexango-standard-2026-02-02-18-56",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:snapshot",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-04T23:24:33+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecr:us-east-2:442426872653:repository/servers/deepai",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ecr:repository",
+            "Service": "ecr",
+            "LastReportedAt": "2026-02-03T17:58:21+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecs:us-east-2:442426872653:task-definition/td-embeds:1",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ecs:task-definition",
+            "Service": "ecs",
+            "LastReportedAt": "2026-02-05T00:16:39+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:dynamodb:us-east-2:442426872653:table/foretale-app-dynamodb-foretale-table-replica",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "dynamodb:table",
+            "Service": "dynamodb",
+            "LastReportedAt": "2026-02-08T22:33:24+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:snapshot:rds:terraform-20260129145821368500000001-2026-01-30-03-04",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:snapshot",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-04T23:24:33+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:snapshot:rds:terraform-20260129145821368500000001-2026-02-02-03-04",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:snapshot",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-04T23:24:33+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:snapshot:foretale-app-rds-main-snapshot",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:snapshot",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-04T23:24:33+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group/sg-02212827192fdba24",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-07T02:54:12+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group/sg-0ad8dfac3083b58a4",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-07T02:54:12+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:us-east-2:442426872653:log-group:RDSOSMetrics",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-02-06T08:45:43+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:lambda:us-east-2:442426872653:function:sql-server-data-upload",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "lambda:function",
+            "Service": "lambda",
+            "LastReportedAt": "2026-02-06T21:38:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:s3:::foretalestoragebucketfe78a-dev",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "s3:bucket",
+            "Service": "s3",
+            "LastReportedAt": "2026-02-06T20:34:40+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:elasticache:us-east-2:442426872653:user:default",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "elasticache:user",
+            "Service": "elasticache",
+            "LastReportedAt": "2026-02-07T12:43:45+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:s3:::foretale-app-s3-vector-db-us-east-2",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "s3:bucket",
+            "Service": "s3",
+            "LastReportedAt": "2026-02-06T20:34:39+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:natgateway/nat-0ff858c1ca9880179",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:natgateway",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-04T17:02:13+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/ux2kvdl1q8/stages/dev",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/stages",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-05T14:38:02+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:memorydb:us-east-2:442426872653:parametergroup/default.memorydb-redis7.search",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "memorydb:parametergroup",
+            "Service": "memorydb",
+            "LastReportedAt": "2026-02-05T19:12:34+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cognito-idp:us-east-2:442426872653:userpool/us-east-2_VRLHwe5lu",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cognito-idp:userpool",
+            "Service": "cognito-idp",
+            "LastReportedAt": "2026-02-05T05:04:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecr:us-east-2:442426872653:repository/servers/redis",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ecr:repository",
+            "Service": "ecr",
+            "LastReportedAt": "2026-02-03T17:58:21+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:us-east-2:442426872653:log-group:/aws/rds/instance/foretale-dev-postgres/postgresql",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-02-06T08:45:42+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:dynamodb:us-east-2:442426872653:table/foretale-app-dynamodb-ai-state",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "dynamodb:table",
+            "Service": "dynamodb",
+            "LastReportedAt": "2026-02-08T22:33:22+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-0bf465f3e622151dd",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudformation:us-east-2:442426872653:stack/amplify-foretaleapplication-dev-fe78a-authforetaleapplication6f8acf89-S6TK2KZQOCJW/57b5d730-01fb-11f1-b169-0aa81cf6565b",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudformation:stack",
+            "Service": "cloudformation",
+            "LastReportedAt": "2026-02-04T18:57:25+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:vpc/vpc-0de30b9415bf1b730",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:vpc",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-03T17:58:22+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:s3express:us-east-2:442426872653:bucket/foretale-dev-vector--use2-az1--x-s3",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "s3express:bucket",
+            "Service": "s3express",
+            "LastReportedAt": "2026-02-06T20:13:57+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:vpc/vpc-0bb9267ea1818564c",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:vpc",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-04T17:02:05+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:image/ami-0e550c0ac70f0da3c",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:image",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-03T23:11:57+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-0f5f554bbd948b881",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T08:29:11+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group/sg-0658790f3859bb1ac",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-07T02:54:12+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:s3:::amplify-foretaleapplication-dev-fe78a-deployment",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "s3:bucket",
+            "Service": "s3",
+            "LastReportedAt": "2026-02-06T20:34:39+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudwatch:us-east-2:442426872653:alarm:foretale-dev-lambda-throttles",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudwatch:alarm",
+            "Service": "cloudwatch",
+            "LastReportedAt": "2026-01-27T17:58:22+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apprunner:us-east-2:442426872653:autoscalingconfiguration/DefaultConfiguration/1/00000000000000000000000000000001",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apprunner:autoscalingconfiguration",
+            "Service": "apprunner",
+            "LastReportedAt": "2026-02-07T07:33:43+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/ux2kvdl1q8/resources/3yoqye/methods/POST",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/resources/methods",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-09T13:44:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:lambda:us-east-2:442426872653:function:foretale-app-lambda-read-json-record",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "lambda:function",
+            "Service": "lambda",
+            "LastReportedAt": "2026-02-06T11:40:11+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:network-interface/eni-0909695e91063e59a",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:network-interface",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T23:05:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudwatch:us-east-2:442426872653:alarm:foretale-dev-alb-http-5xx",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudwatch:alarm",
+            "Service": "cloudwatch",
+            "LastReportedAt": "2026-02-05T14:28:32+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/ux2kvdl1q8/deployments/xn874a",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/deployments",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-08T19:59:35+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:network-interface/eni-03e4dbf5ab723a6cc",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:network-interface",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T23:05:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:network-interface/eni-06c72811f729841d7",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:network-interface",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T23:05:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-00fba2d0fd84bc0bc",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T08:29:11+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:amplify:us-east-2:442426872653:apps/d238q3kl38fu0z",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "amplify:apps",
+            "Service": "amplify",
+            "LastReportedAt": "2026-02-04T18:50:17+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/ux2kvdl1q8/resources/k9j5o6/methods/DELETE",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/resources/methods",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-09T13:44:48+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:elastic-ip/eipalloc-09e3aa02df2bb53f0",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:elastic-ip",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T16:22:29+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:secretsmanager:us-east-2:442426872653:secret:foretale-dev-db-credentials-MHqFwZ",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "secretsmanager:secret",
+            "Service": "secretsmanager",
+            "LastReportedAt": "2026-02-02T22:33:49+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudwatch:us-east-2:442426872653:alarm:TargetTracking-foretale-dev-ai-servers-asg-AlarmHigh-5b4895f9-e275-42d6-bf76-f3ae21fd0ee5",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudwatch:alarm",
+            "Service": "cloudwatch",
+            "LastReportedAt": "2026-02-09T14:38:18+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group/sg-05c8fa2bc127b87a6",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-07T02:54:12+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:us-east-2:442426872653:log-group:/aws/lambda/ecs-task-invoker",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-02-06T21:21:23+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:network-interface/eni-08da63ee15fdf8d55",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:network-interface",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T23:05:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-0a96344e9ad97596d",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:route-table/rtb-0fd8971cdbddeaef5",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:route-table",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-04T17:02:07+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:dynamodb:us-east-2:442426872653:table/foretale-app-dynamodb-params",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "dynamodb:table",
+            "Service": "dynamodb",
+            "LastReportedAt": "2026-02-08T22:33:24+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:subnet/subnet-0474663ac69b7f53f",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T06:08:17+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-05382755fba2fb8cb",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T08:29:11+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:db:hexango-standard",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:db",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-04T02:13:00+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group/sg-0b0f1552f2ce495d5",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-07T02:54:12+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cognito-identity:us-east-2:442426872653:identitypool/us-east-2:10397224-0526-467d-9614-13d736493ccc",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cognito-identity:identitypool",
+            "Service": "cognito-identity",
+            "LastReportedAt": "2026-02-07T11:00:53+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group/sg-0c1f5599be0aecd21",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-07T02:54:12+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:pg:default.sqlserver-se-16.0",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:pg",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-08T12:42:06+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:us-east-2:442426872653:log-group:/aws/lambda/rds-connection-test",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-02-06T08:45:42+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:secretsmanager:us-east-2:442426872653:secret:dev-postgres-credentials-bLL5h3",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "secretsmanager:secret",
+            "Service": "secretsmanager",
+            "LastReportedAt": "2026-02-02T22:33:39+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-01d352178b9161141",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:lambda:us-east-2:442426872653:function:amplify-foretaleapplicati-UpdateRolesWithIDPFuncti-kAwDMttSovfR",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "lambda:function",
+            "Service": "lambda",
+            "LastReportedAt": "2026-02-04T19:00:54+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:sqs:us-east-2:442426872653:sqs-controls-execution",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "sqs:queue",
+            "Service": "sqs",
+            "LastReportedAt": "2026-02-08T15:50:13+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:us-east-2:442426872653:log-group:/aws/apigateway/welcome",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-02-06T08:45:41+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-07b3f3e279a4065b2",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:lambda:us-east-2:442426872653:function:calling-sql-procedure",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "lambda:function",
+            "Service": "lambda",
+            "LastReportedAt": "2026-02-06T21:36:31+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cognito-idp:us-east-2:442426872653:userpool/us-east-2_OmkcluSx0",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cognito-idp:userpool",
+            "Service": "cognito-idp",
+            "LastReportedAt": "2026-02-05T05:04:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:lambda:us-east-2:442426872653:function:foretale-app-lambda-read-record",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "lambda:function",
+            "Service": "lambda",
+            "LastReportedAt": "2026-02-06T11:40:11+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-0482bf39a2ca81168",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cognito-identity:us-east-2:442426872653:identitypool/us-east-2:6c6523e1-cb26-42c4-ba57-68c1b56b0561",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cognito-identity:identitypool",
+            "Service": "cognito-identity",
+            "LastReportedAt": "2026-02-07T11:00:53+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:lambda:us-east-2:442426872653:function:amplify-login-create-auth-challenge-04d18522",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "lambda:function",
+            "Service": "lambda",
+            "LastReportedAt": "2026-02-04T19:09:43+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:dynamodb:us-east-2:442426872653:table/foretale-app-dynamodb-websocket-connections",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "dynamodb:table",
+            "Service": "dynamodb",
+            "LastReportedAt": "2026-02-08T22:33:25+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:route-table/rtb-0277bcd2f9cbc47c3",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:route-table",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-03T21:32:06+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:elasticloadbalancing:us-east-2:442426872653:listener/app/foretale-app-alb-main/9d7fc2d2467d43e6/44d418b6f04f02f3",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "elasticloadbalancing:listener/app",
+            "Service": "elasticloadbalancing",
+            "LastReportedAt": "2026-02-08T19:16:43+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:memorydb:us-east-2:442426872653:user/default",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "memorydb:user",
+            "Service": "memorydb",
+            "LastReportedAt": "2026-02-09T07:20:07+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:us-east-2:442426872653:log-group:/aws/lambda/calling-sql-procedure",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-02-06T21:21:23+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:memorydb:us-east-2:442426872653:parametergroup/default.memorydb-redis7.search.preview",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "memorydb:parametergroup",
+            "Service": "memorydb",
+            "LastReportedAt": "2026-02-05T19:12:34+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:memorydb:us-east-2:442426872653:parametergroup/default.memorydb-valkey7.search",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "memorydb:parametergroup",
+            "Service": "memorydb",
+            "LastReportedAt": "2026-02-05T19:12:34+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:secretsmanager:us-east-2:442426872653:secret:dev-url-alb-ecs-services-wixsU3",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "secretsmanager:secret",
+            "Service": "secretsmanager",
+            "LastReportedAt": "2026-02-02T22:33:47+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-0ed22e4d50d720704",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T08:29:11+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:subnet/subnet-0d84c19b1c23aee1e",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T06:08:17+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:dhcp-options/dopt-07cf8eaa30f9e31e0",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:dhcp-options",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-08T10:30:15+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cognito-identity:us-east-2:442426872653:identitypool/us-east-2:2b29850e-5d27-4d3c-aae2-aa39ca3f781a",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cognito-identity:identitypool",
+            "Service": "cognito-identity",
+            "LastReportedAt": "2026-02-07T11:00:53+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:subgrp:foretale-app-rds-subnet-group",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:subgrp",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-05T00:20:04+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:route-table/rtb-0ffcac40e22454674",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:route-table",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-03T21:32:06+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:lambda:us-east-2:442426872653:function:amplify-login-custom-message-04d18522",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "lambda:function",
+            "Service": "lambda",
+            "LastReportedAt": "2026-02-04T19:09:44+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-036242337310215e6",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:athena:us-east-2:442426872653:workgroup/primary",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "athena:workgroup",
+            "Service": "athena",
+            "LastReportedAt": "2026-02-05T23:09:31+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecr:us-east-2:442426872653:repository/servers/mcp",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ecr:repository",
+            "Service": "ecr",
+            "LastReportedAt": "2026-02-03T17:58:21+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudwatch:us-east-2:442426872653:alarm:foretale-dev-api-4xx-errors",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudwatch:alarm",
+            "Service": "cloudwatch",
+            "LastReportedAt": "2026-01-27T17:58:22+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:subnet/subnet-03a3608c69d9dca5f",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T06:08:17+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:dynamodb:us-east-2:442426872653:table/foretale-app-dynamodb-sessions",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "dynamodb:table",
+            "Service": "dynamodb",
+            "LastReportedAt": "2026-02-08T22:33:25+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudwatch:us-east-2:442426872653:alarm:foretale-dev-high-cpu",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudwatch:alarm",
+            "Service": "cloudwatch",
+            "LastReportedAt": "2026-02-05T14:32:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:dynamodb:us-east-2:442426872653:table/foretale-app-dynamodb-audit-logs",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "dynamodb:table",
+            "Service": "dynamodb",
+            "LastReportedAt": "2026-02-08T22:33:23+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecs:us-east-2:442426872653:cluster/cluster-agents",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ecs:cluster",
+            "Service": "ecs",
+            "LastReportedAt": "2026-02-04T05:44:41+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cognito-idp:us-east-2:442426872653:userpool/us-east-2_VKogaTrZL",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cognito-idp:userpool",
+            "Service": "cognito-idp",
+            "LastReportedAt": "2026-02-05T05:04:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/6pz582qld4/deployments/t0vlpw",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/deployments",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-08T19:59:35+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:network-interface/eni-0178a6d4bec0002e4",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:network-interface",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T23:05:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:instance/i-0b8355e329e6a455d",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:instance",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-03T16:23:56+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:pg:default.postgres17",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:pg",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-08T12:42:06+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-08872f05dcfdb98f0",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecr:us-east-2:442426872653:repository/invoke/bg/job",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ecr:repository",
+            "Service": "ecr",
+            "LastReportedAt": "2026-02-03T17:58:21+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:instance/i-0e7f643f9d5ba7663",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:instance",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T11:35:13+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-0530673a5ca888e08",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T08:29:11+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:lambda:us-east-2:442426872653:function:amplify-login-define-auth-challenge-04d18522",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "lambda:function",
+            "Service": "lambda",
+            "LastReportedAt": "2026-02-04T19:09:44+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:volume/vol-0ed92e3aa84a7e6c1",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:volume",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T11:35:12+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:subnet/subnet-09a654b71ee959728",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T06:08:17+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cognito-identity:us-east-2:442426872653:identitypool/us-east-2:4b9dd439-eae0-4ad7-aae1-1c2ef9a6843a",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cognito-identity:identitypool",
+            "Service": "cognito-identity",
+            "LastReportedAt": "2026-02-07T11:00:53+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:subnet/subnet-06005d32dc838779b",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T06:08:17+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:subnet/subnet-0b817d17b0d6ca506",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T06:08:17+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:codecommit:us-east-2:442426872653:foretale_application",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "codecommit:repository",
+            "Service": "codecommit",
+            "LastReportedAt": "2026-02-01T04:08:18+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:cloudwatch:us-east-2:442426872653:alarm:TargetTracking-foretale-dev-ai-servers-asg-AlarmLow-c85cccd0-0d0a-438f-8799-1c5e724e3368",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "cloudwatch:alarm",
+            "Service": "cloudwatch",
+            "LastReportedAt": "2026-02-09T14:38:18+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:route-table/rtb-0e5f9becb1de6ae36",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:route-table",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-03T21:32:06+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/ux2kvdl1q8/resources/qvus9q/methods/POST",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/resources/methods",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-09T13:44:49+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:us-east-2:442426872653:log-group:/aws/lambda/foretale-app-lambda-read-record",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-02-06T11:35:50+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:subnet/subnet-099c4a4b51deaf9e2",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T06:08:17+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-09e47d579746511e2",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T07:12:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:secretsmanager:us-east-2:442426872653:secret:dev-sql-credentials-oaeDJO",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "secretsmanager:secret",
+            "Service": "secretsmanager",
+            "LastReportedAt": "2026-02-02T22:33:41+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:lambda:us-east-2:442426872653:function:rds-connection-test",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "lambda:function",
+            "Service": "lambda",
+            "LastReportedAt": "2026-02-04T05:24:47+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:us-east-2:442426872653:snapshot:rds:terraform-20260129145821368500000001-2026-02-01-03-04",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "rds:snapshot",
+            "Service": "rds",
+            "LastReportedAt": "2026-02-04T23:24:33+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/c52bhyyc4c/deployments/hd109q",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/deployments",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-08T19:59:35+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:security-group-rule/sgr-058819f68ab8b440c",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-09T08:29:11+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:secretsmanager:us-east-2:442426872653:secret:foretale-app-rds-sqlserver-credentials-wNyUAN",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "secretsmanager:secret",
+            "Service": "secretsmanager",
+            "LastReportedAt": "2026-02-04T17:07:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecr:us-east-2:442426872653:repository/servers/embedding/sync",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ecr:repository",
+            "Service": "ecr",
+            "LastReportedAt": "2026-02-03T17:58:21+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apigateway:us-east-2::/restapis/6pz582qld4/resources/e531i3y3ej/methods/POST",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "apigateway:restapis/resources/methods",
+            "Service": "apigateway",
+            "LastReportedAt": "2026-02-09T13:44:44+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:subnet/subnet-0d2a35802b544fcb3",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T06:08:17+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:us-east-2:442426872653:network-interface/eni-0e131dc584c579f06",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "ec2:network-interface",
+            "Service": "ec2",
+            "LastReportedAt": "2026-02-06T23:05:37+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:us-east-2:442426872653:log-group:/aws/lambda/sql-server-data-upload",
+            "OwningAccountId": "442426872653",
+            "Region": "us-east-2",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-02-06T21:21:22+00:00",
+            "Properties": []
+        }
+    ],
+    "ViewArn": "arn:aws:resource-explorer-2:us-east-2::view/AWSServiceViewForResourceExplorer/service-view",
+    "Count": {
+        "TotalResources": 278,
+        "Complete": true
+    }
+}

@@ -1,0 +1,160 @@
+################################################################################
+# Test Execution Processor Deployment
+# Executes automated tests and database processing tasks
+################################################################################
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: foretale-test-executor
+  namespace: default
+  labels:
+    app: foretale
+    component: test-executor
+    environment: dev
+spec:
+  replicas: 2
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  selector:
+    matchLabels:
+      app: foretale
+      component: test-executor
+  template:
+    metadata:
+      labels:
+        app: foretale
+        component: test-executor
+        environment: dev
+    spec:
+      serviceAccountName: foretale-app-sa
+      containers:
+      - name: test-executor
+        # Image should be pushed to ECR - placeholder shown
+        image: ACCOUNT_ID.dkr.ecr.us-east-2.amazonaws.com/foretale-test-executor:latest
+        imagePullPolicy: Always
+        
+        ports:
+        - name: http
+          containerPort: 8001
+          protocol: TCP
+        
+        env:
+        # Load from ConfigMap
+        - name: RDS_ENDPOINT
+          valueFrom:
+            configMapKeyRef:
+              name: foretale-app-config
+              key: RDS_ENDPOINT
+        - name: RDS_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: foretale-app-config
+              key: RDS_PORT
+        - name: RDS_DATABASE
+          valueFrom:
+            configMapKeyRef:
+              name: foretale-app-config
+              key: RDS_DATABASE
+        - name: RDS_USER
+          valueFrom:
+            configMapKeyRef:
+              name: foretale-app-config
+              key: RDS_USER
+        - name: AWS_REGION
+          valueFrom:
+            configMapKeyRef:
+              name: foretale-app-config
+              key: AWS_REGION
+        - name: DYNAMODB_CACHE_TABLE
+          valueFrom:
+            configMapKeyRef:
+              name: foretale-app-config
+              key: DYNAMODB_CACHE_TABLE
+        - name: S3_BUCKET_APP_STORAGE
+          valueFrom:
+            configMapKeyRef:
+              name: foretale-app-config
+              key: S3_BUCKET_APP_STORAGE
+        
+        # Load from Secret
+        - name: DB_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: foretale-db-secret
+              key: DB_PASSWORD
+        
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "1Gi"
+            cpu: "1000m"
+        
+        # Liveness probe - restart if unhealthy
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: http
+          initialDelaySeconds: 30
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+        
+        # Readiness probe - mark as ready for traffic
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: http
+          initialDelaySeconds: 10
+          periodSeconds: 5
+          timeoutSeconds: 3
+          failureThreshold: 2
+        
+        # Graceful shutdown
+        lifecycle:
+          preStop:
+            exec:
+              command: ["/bin/sh", "-c", "sleep 15"]
+      
+      # Affinity to spread pods across nodes
+      affinity:
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 100
+            podAffinityTerm:
+              labelSelector:
+                matchExpressions:
+                - key: component
+                  operator: In
+                  values:
+                  - test-executor
+              topologyKey: kubernetes.io/hostname
+
+---
+################################################################################
+# Test Executor Service
+################################################################################
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: foretale-test-executor-svc
+  namespace: default
+  labels:
+    app: foretale
+    component: test-executor
+spec:
+  type: ClusterIP
+  selector:
+    app: foretale
+    component: test-executor
+  ports:
+  - name: http
+    port: 80
+    targetPort: http
+    protocol: TCP

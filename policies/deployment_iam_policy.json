@@ -1,0 +1,30 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "sso:CreatePermissionSet",
+                "sso:AttachManagedPolicyToPermissionSet",
+                "sso:ProvisionPermissionSet",
+                "sso:ListInstances"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "secretsmanager:CreateSecret",
+                "secretsmanager:RotateSecret",
+                "secretsmanager:GetSecretValue",
+                "secretsmanager:PutResourcePolicy"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "lambda:InvokeFunction",
+            "Resource": "*"
+        }
+    ]
+}

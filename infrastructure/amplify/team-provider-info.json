@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-foretaleapplication-dev-8a4b6-authRole",
+      "UnauthRoleArn": "arn:aws:iam::442426872653:role/amplify-foretaleapplication-dev-8a4b6-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::442426872653:role/amplify-foretaleapplication-dev-8a4b6-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-foretaleapplication-dev-8a4b6-deployment",
+      "UnauthRoleName": "amplify-foretaleapplication-dev-8a4b6-unauthRole",
+      "StackName": "amplify-foretaleapplication-dev-8a4b6",
+      "StackId": "arn:aws:cloudformation:ap-south-1:442426872653:stack/amplify-foretaleapplication-dev-8a4b6/d3cc36a0-c0a8-11f0-af4c-0665fcbb5c0f",
+      "AmplifyAppId": "d36tsmnts8nsz3"
+    },
+    "categories": {
+      "auth": {
+        "foretaleapplicationef550e90": {}
+      },
+      "storage": {
+        "foretaleresources": {}
+      }
+    }
+  }
+}
