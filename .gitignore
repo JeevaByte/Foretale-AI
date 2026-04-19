@@ -198,3 +198,7 @@ infrastructure/terraform/modules/lambda/*.zip
 infrastructure/terraform-us-east-1/modules/lambda/*.zip
 infrastructure/lambda/**/test-deployment.zip
 infrastructure/lambda/calling-sql-procedure/calling-sql-procedure.zip
+
+# Workspace folders not intended for repo commits
+/scripts/
+/terraform-security-analysis/
