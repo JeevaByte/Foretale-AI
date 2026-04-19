@@ -184,3 +184,17 @@ Thumbs.db
 
 # Linux
 .directory
+
+# Security scan artifacts (generated)
+checkov-report.json/
+checkov-report*.json
+checkov-report*.xml
+checkov-report*.sarif
+
+# Generated ZIP artifacts (lambda/layers/build output)
+tmp/layers/*.zip
+infrastructure/terraform/lambda_comparison/*.zip
+infrastructure/terraform/modules/lambda/*.zip
+infrastructure/terraform-us-east-1/modules/lambda/*.zip
+infrastructure/lambda/**/test-deployment.zip
+infrastructure/lambda/calling-sql-procedure/calling-sql-procedure.zip
