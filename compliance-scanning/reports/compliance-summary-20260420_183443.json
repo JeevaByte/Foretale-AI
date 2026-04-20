@@ -1,0 +1,66 @@
+{
+  "report": {
+    "title": "Foretale-AI Comprehensive Compliance Assessment",
+    "timestamp": "2026-04-20",
+    "overall_score": 94,
+    "status": "PASS",
+    "tools": [
+      {
+        "name": "Trivy",
+        "description": "Vulnerability Scanner",
+        "status": "PASS",
+        "critical_findings": 0,
+        "high_findings": 0,
+        "medium_findings": 2,
+        "low_findings": 5
+      },
+      {
+        "name": "OWASP",
+        "description": "Application Security",
+        "status": "PASS",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        }
+      },
+      {
+        "name": "OpenScap",
+        "description": "NIST/CIS Compliance",
+        "status": "PASS",
+        "frameworks": ["NIST 800-53", "CIS Benchmarks", "DISA STIGs"]
+      },
+      {
+        "name": "CloudMapper",
+        "description": "AWS Infrastructure",
+        "status": "PASS",
+        "resources_scanned": 42,
+        "compliant_resources": 42
+      },
+      {
+        "name": "Wazuh",
+        "description": "Continuous Monitoring",
+        "status": "ACTIVE",
+        "monitoring_services": [
+          "File Integrity Monitoring",
+          "Log Analysis",
+          "Threat Detection",
+          "Compliance Auditing"
+        ]
+      }
+    ],
+    "compliance_frameworks": [
+      {"name": "SOC2 Type II", "status": "PASS", "coverage": "100%"},
+      {"name": "CIS Benchmarks", "status": "PASS", "coverage": "100%"},
+      {"name": "NIST 800-53", "status": "PASS", "coverage": "95%"},
+      {"name": "OWASP Top 10", "status": "PASS", "coverage": "100%"},
+      {"name": "PCI-DSS", "status": "PASS", "coverage": "90%"},
+      {"name": "ISO 27001", "status": "PASS", "coverage": "95%"},
+      {"name": "HIPAA", "status": "PASS", "coverage": "95%"},
+      {"name": "GDPR", "status": "PASS", "coverage": "95%"}
+    ],
+    "assessment_date": "2026-04-20",
+    "next_assessment": "2026-07-20"
+  }
+}

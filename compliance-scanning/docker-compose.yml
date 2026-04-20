@@ -1,0 +1,62 @@
+version: '3.8'
+
+services:
+  # Trivy Scanner Service
+  trivy:
+    image: aquasec/trivy:latest
+    container_name: foretale-trivy
+    volumes:
+      - /workspaces/Foretale-AI:/workspace
+      - trivy-cache:/root/.cache/trivy
+    command: image --severity High,Critical --format json --output /workspace/compliance-scanning/trivy/reports/trivy-output.json
+
+  # OWASP Dependency Check Service
+  owasp-dependency-check:
+    image: owasp/dependency-check:latest
+    container_name: foretale-owasp-dc
+    volumes:
+      - /workspaces/Foretale-AI:/workspace
+    command: --project "Foretale-AI" --scan /workspace --format JSON --out /workspace/compliance-scanning/owasp/reports
+
+  # OpenScap Scanner Service
+  openscap:
+    image: debian:bullseye
+    container_name: foretale-openscap
+    volumes:
+      - /workspaces/Foretale-AI:/workspace
+    working_dir: /workspace
+    entrypoint: >
+      bash -c "
+        apt-get update &&
+        apt-get install -y libopenscap8 openscap-scanner scap-security-guide &&
+        oscap scan --profile cis_kubernetes compliance-scanning/openscap/
+      "
+
+  # Checkov for IaC Security (replacement for some OpenScap functions)
+  checkov:
+    image: bridgecrewio/checkov:latest
+    container_name: foretale-checkov
+    volumes:
+      - /workspaces/Foretale-AI:/workspace
+    command: -d /workspace --framework terraform,kubernetes,dockerfile --output json > /workspace/compliance-scanning/openscap/reports/checkov-output.json
+
+  # Python-based security scanning
+  python-security:
+    image: python:3.10-slim
+    container_name: foretale-python-security
+    volumes:
+      - /workspaces/Foretale-AI:/workspace
+    working_dir: /workspace
+    entrypoint: >
+      bash -c "
+        pip install bandit semgrep safety -q &&
+        bandit -r . -f json -o compliance-scanning/owasp/reports/bandit-output.json &&
+        semgrep --config=p/owasp-top-ten --json --output compliance-scanning/owasp/reports/semgrep-output.json .
+      "
+
+volumes:
+  trivy-cache:
+
+networks:
+  compliance-network:
+    driver: bridge
