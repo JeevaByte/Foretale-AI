@@ -190,6 +190,8 @@ checkov-report.json/
 checkov-report*.json
 checkov-report*.xml
 checkov-report*.sarif
+*.ocsf.json
+docs/reports/prowler-output/*.ocsf.json
 
 # Generated ZIP artifacts (lambda/layers/build output)
 tmp/layers/*.zip
