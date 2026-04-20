@@ -1,0 +1,111 @@
+# Prowler Security Scan (Human-Readable Summary)
+
+Date: 2026-04-20 (UTC)
+Account: 442426872653 (Hexango)
+Regions: us-east-1, us-east-2
+Source file: [docs/reports/prowler-output/prowler-aws-20260420-090604.csv](docs/reports/prowler-output/prowler-aws-20260420-090604.csv)
+
+## Executive Summary
+
+- Total checks evaluated: 2,349
+- Passed: 1,644
+- Failed: 701
+- Manual checks: 4
+
+Risk by failed severity:
+
+- Critical: 10
+- High: 129
+- Medium: 414
+- Low: 148
+
+Primary concentration of failed findings:
+
+- us-east-1: 508
+- us-east-2: 193
+
+## Top Problem Areas
+
+Most impacted services (failed findings):
+
+1. cloudwatch: 131
+2. s3: 128
+3. awslambda: 59
+4. ecr: 49
+5. iam: 49
+6. ecs: 40
+7. dynamodb: 38
+8. apigateway: 35
+9. rds: 29
+10. secretsmanager: 27
+
+Most frequent failed controls:
+
+1. cloudwatch_log_group_kms_encryption_enabled (60)
+2. cloudwatch_log_group_retention_policy_specific_days_enabled (37)
+3. cloudwatch_alarm_actions_alarm_state_configured (19)
+4. ecr_repositories_lifecycle_policy_enabled (19)
+5. ecr_repositories_tag_immutability (19)
+6. awslambda_function_invoke_api_operations_cloudtrail_logging_enabled (18)
+7. awslambda_function_no_dead_letter_queue (18)
+8. ecs_task_definitions_containers_readonly_access (16)
+9. iam_role_cross_service_confused_deputy_prevention (16)
+10. cloudformation_stacks_termination_protection_enabled (15)
+
+## Critical Findings (What matters first)
+
+1. Secret exposure indicators in Lambda code and environment variables.
+2. Secret exposure indicators in CloudFormation stack outputs.
+3. Secret exposure indicators in ECS task definition environment variables.
+4. IAM over-privilege patterns including AdministratorAccess usage.
+5. Root account MFA posture not at strongest setting (hardware MFA expected by this control).
+
+Representative examples from the scan:
+
+- awslambda_function_no_secrets_in_code on resource amplify-djeky3rjf2dd9-mai-AmplifyBranchLinkerCusto-D5NUVZM1U30r (us-east-1)
+- awslambda_function_no_secrets_in_variables on resource calling-central-control-db (us-east-1)
+- cloudformation_stack_outputs_find_secrets on stack amplify-djeky3rjf2dd9-main-branch-ce2848e184 (us-east-1)
+- ecs_task_definitions_no_environment_secrets on task definition td-deepai:3 (us-east-1)
+- iam_user_administrator_access_policy on user admin-jeeva (us-east-1)
+
+## High Findings (Next priority)
+
+Repeated high-risk operational issues include:
+
+1. CloudWatch alarms with no ALARM actions configured.
+2. EBS snapshot public-access and encryption hygiene gaps.
+3. API Gateway hardening gaps in selected APIs/stages.
+
+Representative high examples:
+
+- cloudwatch_alarm_actions_alarm_state_configured on foretale-dev-alb-http-5xx
+- ec2_ebs_snapshot_account_block_public_access in us-east-1 and us-east-2
+- apigateway_restapi_client_certificate_enabled on selected API stages
+
+## 7-Day Remediation Plan
+
+Day 1 to 2 (Containment):
+
+1. Rotate any real credentials/tokens detected in Lambda, ECS, and CloudFormation outputs.
+2. Move sensitive values to Secrets Manager and remove plaintext secrets from env/code/outputs.
+3. Restrict or remove broad admin attachments from human IAM users where possible.
+
+Day 3 to 4 (Detection and Recovery):
+
+1. Attach SNS/Incident actions to all CloudWatch alarms currently missing ALARM actions.
+2. Enforce CloudWatch log group encryption with KMS and retention policies.
+3. Enable missing API authorizers and review API stage hardening controls.
+
+Day 5 to 7 (Hardening):
+
+1. Enable ECR image tag immutability and lifecycle policies across repositories.
+2. Enforce read-only root filesystems and secret handling improvements in ECS task definitions.
+3. Close S3 baseline controls that recur across buckets (logging, lock/MFA-delete where applicable, replication policy decisions).
+
+## Artifacts
+
+- Human-readable summary: [docs/reports/prowler](docs/reports/prowler)
+- Full HTML report: [docs/reports/prowler-output/prowler-aws-20260420-090604.html](docs/reports/prowler-output/prowler-aws-20260420-090604.html)
+- Full CSV findings: [docs/reports/prowler-output/prowler-aws-20260420-090604.csv](docs/reports/prowler-output/prowler-aws-20260420-090604.csv)
+- Full JSON (OCSF): [docs/reports/prowler-output/prowler-aws-20260420-090604.ocsf.json](docs/reports/prowler-output/prowler-aws-20260420-090604.ocsf.json)
+- Compliance breakdowns: [docs/reports/prowler-output/compliance](docs/reports/prowler-output/compliance)

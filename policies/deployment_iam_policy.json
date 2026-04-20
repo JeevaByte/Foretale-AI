@@ -2,6 +2,7 @@
     "Version": "2012-10-17",
     "Statement": [
         {
+            "Sid": "IdentityCenterPermissionSetProvisioning",
             "Effect": "Allow",
             "Action": [
                 "sso:CreatePermissionSet",
@@ -12,19 +13,55 @@
             "Resource": "*"
         },
         {
+            "Sid": "CreateScopedSecretsOnly",
             "Effect": "Allow",
-            "Action": [
-                "secretsmanager:CreateSecret",
-                "secretsmanager:RotateSecret",
-                "secretsmanager:GetSecretValue",
-                "secretsmanager:PutResourcePolicy"
-            ],
-            "Resource": "*"
+            "Action": "secretsmanager:CreateSecret",
+            "Resource": "*",
+            "Condition": {
+                "StringLike": {
+                    "secretsmanager:Name": [
+                        "foretale-app-*",
+                        "foretale-*"
+                    ]
+                }
+            }
         },
         {
+            "Sid": "ManageForetaleSecrets",
+            "Effect": "Allow",
+            "Action": [
+                "secretsmanager:RotateSecret",
+                "secretsmanager:GetSecretValue"
+            ],
+            "Resource": [
+                "arn:aws:secretsmanager:*:442426872653:secret:foretale-app-*",
+                "arn:aws:secretsmanager:*:442426872653:secret:foretale-*"
+            ]
+        },
+        {
+            "Sid": "SetSecretPolicyWithPublicBlock",
+            "Effect": "Allow",
+            "Action": "secretsmanager:PutResourcePolicy",
+            "Resource": [
+                "arn:aws:secretsmanager:*:442426872653:secret:foretale-app-*",
+                "arn:aws:secretsmanager:*:442426872653:secret:foretale-*"
+            ],
+            "Condition": {
+                "Bool": {
+                    "secretsmanager:BlockPublicPolicy": "true"
+                }
+            }
+        },
+        {
+            "Sid": "InvokeForetaleLambdasOnly",
             "Effect": "Allow",
             "Action": "lambda:InvokeFunction",
-            "Resource": "*"
+            "Resource": [
+                "arn:aws:lambda:*:442426872653:function:foretale-app-*",
+                "arn:aws:lambda:*:442426872653:function:foretale-app-*:*",
+                "arn:aws:lambda:*:442426872653:function:foretale-*",
+                "arn:aws:lambda:*:442426872653:function:foretale-*:*"
+            ]
         }
     ]
 }

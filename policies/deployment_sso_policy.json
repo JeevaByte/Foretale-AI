@@ -2,23 +2,37 @@
   "Version": "2012-10-17",
   "Statement": [
     {
+      "Sid": "IdentityCenterRead",
+      "Effect": "Allow",
+      "Action": [
+        "sso:ListInstances",
+        "sso:DescribePermissionSet",
+        "sso:ListPermissionSets",
+        "sso:ListManagedPoliciesInPermissionSet",
+        "sso:ListAccountAssignments"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "IdentityCenterMutationsUsEast1Only",
       "Effect": "Allow",
       "Action": [
         "sso:CreatePermissionSet",
         "sso:DeletePermissionSet",
         "sso:UpdatePermissionSet",
-        "sso:DescribePermissionSet",
-        "sso:ListPermissionSets",
         "sso:AttachManagedPolicyToPermissionSet",
         "sso:DetachManagedPolicyFromPermissionSet",
         "sso:PutInlinePolicyToPermissionSet",
         "sso:ProvisionPermissionSet",
-        "sso:ListManagedPoliciesInPermissionSet",
-        "sso:ListAccountAssignments",
         "sso:CreateAccountAssignment",
         "sso:DeleteAccountAssignment"
       ],
-      "Resource": "*"
+      "Resource": "*",
+      "Condition": {
+        "StringEquals": {
+          "aws:RequestedRegion": "us-east-1"
+        }
+      }
     }
   ]
 }
