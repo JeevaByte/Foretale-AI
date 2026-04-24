@@ -1,0 +1,54 @@
+name: Auto Sync Main Folder
+
+'on':
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'
+  push:
+    branches:
+      - main
+    paths:
+      - Foretale-AI
+
+jobs:
+  sync-main-folder:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Verify nested source folder exists
+        run: |
+          if [[ ! -d Foretale-AI ]]; then
+            echo "Nested folder Foretale-AI does not exist. Skipping sync."
+            exit 0
+          fi
+
+      - name: Sync nested project into root (no deletes)
+        run: |
+          rsync -a --checksum \
+            --exclude='.git/' \
+            --exclude='Foretale-AI/.git/' \
+            --exclude='.github/workflows/auto-sync-main-folder.yml' \
+            Foretale-AI/ ./
+
+      - name: Commit and push synced changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes found after sync."
+            exit 0
+          fi
+
+          git commit -m "chore: sync recent changes to main folder [skip ci]"
+          git push
