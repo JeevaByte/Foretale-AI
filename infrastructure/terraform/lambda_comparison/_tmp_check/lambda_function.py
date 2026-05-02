@@ -107,8 +107,4 @@ def _is_test_bypass(event):
     if request_context.get('stage') == 'test-invoke-stage':
         return True
 
-    headers_map = event.get('headers') or {}
-    if isinstance(headers_map, dict) and headers_map.get('X-Test-Bypass') == 'true':
-        return True
-
-    return event.get('test_mode') is True
+    return False
